@@ -1,11 +1,13 @@
+import styles from './List.module.scss';
+
 const List = () => {
   return (
-    <div>
-        <header>
-            <h2>Calculate batch size</h2>
+    <div className={styles.list}>
+        <header className={styles.header}>
+            <h2 className={styles.title}>Calculate batch size</h2>
         </header>
-        <p>Chemical products useful at home and more</p>
-        <section>
+        <p className={styles.description}>Chemical products useful at home and more</p>
+        <section className={styles.columns}>
             <article>
                 <h2>SOLVENTS</h2>
             </article>

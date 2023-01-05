@@ -1,0 +1,33 @@
+@import '../../styles/settings.scss';
+
+.header {
+  background-image: url(../../images/Laboratory.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: ($base-size * 15);
+  margin: 0 0 ($base-size * 3) 0;
+  overflow: hidden;
+  border-radius: $radius;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: ($base-size * 2.5);
+  text-transform: uppercase;
+  color: $color-dark;
+}
+
+.description {
+  margin: 0 0 36px;
+  text-align: center;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

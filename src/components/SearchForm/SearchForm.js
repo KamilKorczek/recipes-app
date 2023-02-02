@@ -4,11 +4,13 @@ import Button from '../Button/Button';
 
 const SearchForm = () => {
   return (
-    <form className={styles.SearchForm}>
+    <form className={styles.searchForm}>
       <TextInput placeholder="Search..." />
       <TextInput placeholder="Add new recipes" />
-      <Button text="Search" />
-      <Button text="Add" />
+      <Button>
+        <span className="fa fa-search" />
+      </Button>
+      <Button>Add</Button>
     </form>
   );
 };
